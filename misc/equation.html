@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Equation</title>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    </head>
+<body>
+$$
+E_n = 2 
+\times 
+\arctan
+    \left[
+        \frac
+            {\cos\left\{
+                \frac{1}{2}(R_{n+1} - R_n)
+                \right\}
+            }
+            {\cos\left\{
+                \frac{1}{2}(R_{n+1} + R_n)
+                \right\}
+            }
+        \times
+        \frac
+            {1}
+            {\left\{
+                \frac{1}{2}
+                \left|
+                    T_{n+1} - T_n
+                \right|
+             \right\}
+            }
+    \right]
++ \left| T_{n+1} - T_n \right| 
+- \pi
+$$
+</body>
+</html>

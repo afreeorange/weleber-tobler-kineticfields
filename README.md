@@ -4,12 +4,16 @@
 
 ## Usage
 
-	from weleber_tobler import KineticField
+	from weleber_tobler import kineticfield
 	
-	k = KineticField()
-	k.isopter_points = [(54.7, 1.0), (51, 14.9), ... ]
-	k.steradians
-	k.percent_of_sphere
+	kineticfield.compute([(54.7, 1.0), (51, 14.9), ... ])
+
+The result is a dictionary that contains the solid angle and the percent of a sphere it occupies:
+
+	{
+		'percent_of_sphere': 12.368853569901212,
+		'steradians': 1.5543159803411815
+	}
 
 ## Issues
 

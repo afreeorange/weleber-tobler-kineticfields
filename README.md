@@ -1,6 +1,6 @@
 # Weleber-Tobler Algorithm for Kinetic Visual Fields
 
-(Finish this...)
+(I need to finish an introduction. Read paper in `misc`.)
 
 ## Usage
 
@@ -10,6 +10,10 @@
 	k.isopter_points = [(54.7, 1.0), (51, 14.9), ... ]
 	k.steradians
 	k.percent_of_sphere
+
+## Issues
+
+No idea why the computed steradians are "close enough" but don't match those in the paper for the given input sets (see `test/test_kineticfield.py`). The equation used _seems_ right (see `misc/equation.html`). 
 
 ## References
 

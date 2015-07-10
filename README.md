@@ -35,10 +35,6 @@ This means "use double-precision":
 
     RD(I)=90#
 
-Not sure what this means. Assuming it's "greater than or equal to":
-
-    IF T(K)=>T(I) 
-
 ## License
 
 [MIT](https://raw.githubusercontent.com/afreeorange/mit-license/master/LICENSE)

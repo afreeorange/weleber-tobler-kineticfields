@@ -17,7 +17,7 @@ The result is a dictionary that contains the solid angle and the percent of a sp
 
 ## Issues
 
-No idea why the computed steradians are "close enough" but don't match those in the paper for the given input sets (see `test/test_kineticfield.py`). The equation used _seems_ right:
+No idea why the computed steradians are "close enough" but don't match those in the paper for the given input sets (see `test_weleber_tobler.py`). The equation used _seems_ right:
 
 ![equation](http://i.imgur.com/9AHBhNq.png)
 
